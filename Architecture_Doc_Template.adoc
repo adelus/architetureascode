@@ -1,0 +1,55 @@
+== Introduction and Goals
+
+***
+
+This section is usually used to provide the context of your project. It is helpful to give a contextual diagram to illustrate how the system you are building fits in with the existing applications at a high level.
+You can provide:
+
+* high level overview of the requirements,
+* list of stakeholders,
+* ..etc.
+
+=== Objectives
+
+***
+Describe clearly and concisely the objectives (business and technical) of the application you are building.
+
+=== Scope
+***
+Describe as clearly as possible which features are in and out of scope. Preferably list them as bullets instead of large paragraphs that stakeholders may not read.
+
+=== Constraints and Risks
+***
+The Constraints that you have in your project will shape your architecture decisions. Try to identify them as early as possible in your project.
+
+=== Requirements Overview
+***
+Short description of the business requirements, business drivers.
+Indicate the link or the location of the detailed requirements.
+
+
+=== Architecture Characteristics
+
+***
+This section identifies the architecture characteristics, also known as non-function requirements.
+
+They are foundational to the architecture and are needed to analyze and make decisions.
+
+Identifying the critical non-functional requirement and building your architecture based on this list is crucial.
+
+The following are some examples of architecture characteristics: Performance, availability, fault tolerance, scalability, interoperability, extensibility, testability, configurability, maintainability…etc.
+
+=== High-Level Architecture
+***
+In this section, you present the solution overview. Usually, you introduce the components composing your architecture and use Component/Module diagrams.
+You may also use sequence diagrams to show interactions between the different components. Another important aspect is to identify the integration points with the other systems.
+
+=== Detailed Architecture
+***
+In this section, you provide all the details of your architecture using different diagrams. Use various diagrams to represent different views of your solution, such as:
+
+* Deployment Diagrams
+* Runtime Diagrams
+* Collaboration and sequence diagrams
+
+It is also essential in this section to indicate how the non-functional requirements (characteristics) are driving the architecture decisions you are proposing.
