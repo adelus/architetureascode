@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+package "Client Application" {
+    [Frontend] as frontend
+    [BFF] as bff
+}
+
+package "Customer Services" {
+    [Customer Management Service] as customer_api
+
+}
+
+package "Payment Services" {
+    [Invoice Service] as invoice_api
+    [Payment Gateway] as payment
+}
+
+frontend --> bff
+bff --> customer_api
+bff --> invoice_api
+invoice_api --> payment
+
+@enduml
+

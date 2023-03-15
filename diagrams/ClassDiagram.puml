@@ -1,0 +1,31 @@
+@startuml
+!pragma layout smetana
+class BankAccount {
+    - accountNumber: string
+    - balance: double
+    + deposit(amount: double): void
+    + withdraw(amount: double): void
+}
+
+class SavingsAccount {
+    - interestRate: double
+    + addInterest(): void
+}
+
+class CheckingAccount {
+    - overdraftLimit: double
+    + withdrawWithOverdraft(amount: double): void
+}
+
+BankAccount <|-- SavingsAccount
+BankAccount <|-- CheckingAccount
+
+@enduml
+
+
+
+
+
+
+
+
